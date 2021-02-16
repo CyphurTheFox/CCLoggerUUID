@@ -1,0 +1,23 @@
+log:
+  template: "[%ip][%date (%world: %x,%y,%z)] %name: %content"
+  perplayerlog: true
+  perDateLog: true
+
+hooks:
+  CyphurChatChannels:
+    template: "[%ip][%date (%world: %x,%y,%z)][%channel] %name: %content"
+  DiscordSRV:
+    logtoMain: true
+    template: "[xxx.xxx.xxx.xxx][%date (Discord)      ] %name: %content"
+
+
+#placeholders for if I ever get around to fixing database integration
+database:
+  usedatabase: false
+  type: mongodb
+  connection:
+    hostname: 127.0.0.1
+    database: CCLogger
+    port: 27017
+    username: example
+    password: example

@@ -1,0 +1,9 @@
+name: CCLoggerUUID
+version: ${project.version}
+main: com.cyphur.ccloggeruuid.CCLoggerUUID
+api-version: 1.16
+authors: [ alrik, cyphur ]
+description: An updated version of CCLogger that now loggs by UUID
+softdepend:
+  - CyphurChatChannels
+  - DiscordSRV
