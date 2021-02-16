@@ -1,11 +1,11 @@
-#CCLoggerUUID
+# CCLoggerUUID
 
 This is my custom modified version of the minecraft server logging plugin CCLogger. It has been updated for more recent versions of minecraft. 
 The updated version boasts a handful of improvements over the original. 
 
 ---
 
-###Improvements
+### Improvements
 
 CCLoggerUUID saves log files by a player's UUID, as opposed to their name, which is no longer static.
 
@@ -16,7 +16,7 @@ to help alleviate possible issues where logs become fragmented when discord is h
 
 ---
 
-###Downsides
+### Downsides
 CCLoggerUUID does not, however, support MongoDB the same way the original CCLogger did.
 
 CCLoggerUUID is not as compatible with older minecraft versions as the origninal CCLogger is.
